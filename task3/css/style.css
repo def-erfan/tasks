@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "lalezar";
+    src: url("../assets/fonts/LALEZAR-REGULAR.TTF");
+}
+@font-face {
+    font-family: "aviny";
+    src: url("../assets/fonts/AVINY2-1.TTF");
+}
+
+h1, h4, h5{
+    font-size: 50px;
+    font-family: "lalezar";
+    margin: 0px;
+}
+
+/* navigation bar */
+nav{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    gap: 80px;
+}
+
+.title{
+    color: #ffffff;
+    filter: drop-shadow(0px 2px 5px white);
+    margin-right: 20px;
+}
+
+.nav-div{
+    background-color: black;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 0px 4px 0px 0px rgb(201, 201, 201);
+    transition: 500ms;
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.nav-div:hover{
+    box-shadow: 0px 0px 20px 0px white;
+}
+
+
+.nav-anchors{
+    color: #dadada;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-family: "aviny";
+    text-decoration: none;
+    transition: 400ms;
+}
+.nav-anchors:hover{
+    color: #ffffff;
+    filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}

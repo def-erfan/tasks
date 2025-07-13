@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../assets/fonts/Roboto_Condensed-Black.ttf");
+}
+@font-face {
+    font-family: "corbel";
+    src: url(../assets/fonts/CORBEL.TTF);
+}
+@font-face {
+    font-family: "bod";
+    src: url(../assets/fonts/BOD_R.TTF);
+}
+
+html {
+  font-size: 160%;
+}
+
+body{
+    background-color: rgb(216, 204, 221);
+}
+
+h1, h2{
+    font-family: "roboto";
+}
+h2{
+    margin-top: 10px;
+}
+.title{
+    color: white;
+    margin: 25px 0px 10px 0px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.336));
+}
+
+.div-anchor{
+    font-family: "bod";
+    /* background-color: black; */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 300ms;
+}
+.div-anchor:hover{
+    background-color: rgb(194, 128, 255);
+    color: #000;;
+}
+
+.nav-div{
+    background-color: rgb(153, 45, 255);
+    margin: 10px 0px 20px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.493);
+
+    display: flex;
+}
+
+
+p{
+    font-family: "corbel";
+}
+
+nav{
+    background-color: rgb(174, 96, 248);
+    border-radius: 20px;
+
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+/* ---------- */
+section{
+    background-color: aliceblue;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.199);
+}
+
+section a{
+    text-decoration: none;
+}
+
+.section-div{
+    padding: 10px 0px 5px 0px;
+    border-radius: 30px;
+}
+.section-div h2{
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.section-div p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.section-div:hover{
+    background-color: #dae2e7;
+}
+
+hr{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.527);
+    margin-top: 10px;
+}
+
+/* ---------- */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-div{
+    background-color: rgba(187, 0, 255, 0.158);
+    padding: 5px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 0px 0px rgb(153, 45, 255);
+}
+.footer-div h6{
+    font-family: "bod";
+    margin: 0px;
+}
