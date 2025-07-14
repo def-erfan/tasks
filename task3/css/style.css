@@ -7,10 +7,32 @@
     src: url("../assets/fonts/AVINY2-1.TTF");
 }
 
-h1, h4, h5{
+body{
+    background-color: #000000;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+h1, h5{
+    color: #ffffff;
     font-size: 50px;
     font-family: "lalezar";
     margin: 0px;
+}
+h5{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "aviny";
+    margin: 0px;
+    padding: 0px;
 }
 
 /* navigation bar */
@@ -18,6 +40,9 @@ nav{
     background-color: #000000;
     padding-top: 20px;
     padding-bottom: 15px;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0px 5px 20px 0px white;
 
     display: flex;
     flex-direction: row-reverse;
@@ -63,4 +88,111 @@ nav{
 .nav-anchors:hover{
     color: #ffffff;
     filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+/* ---------- */
+section{
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 0px 20px 0px rgb(255, 255, 255);
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+section:hover{
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+}
+
+section div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+section div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 0px 0px rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: 300ms;
+}
+section div div:hover{
+    box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);
+}
+
+img{
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+}
+
+button{
+    background-color: #fff;
+    color: #000000;
+    font-family: "lalezar";
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
+}
+
+/* ---------- */
+footer{
+    width: 100%;
+    margin: 40px;
+    box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+footer h2{
+    color: #fff;
+    font-family: "lalezar";
+    font-size: 45px;
+    margin: 20px 0px;
+}
+
+footer a{
+    color: #fff;
+    margin: 0px 10px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "aviny";
+    font-size: 30px;
+}
+.green{
+    color: rgb(110, 248, 30);
+}
+.purple{
+    color: rgb(187, 18, 253);
+}
+.blue{
+    color: rgb(57, 199, 255);
+}
+
+footer a:hover{
+    filter: drop-shadow(0px 0px 20px rgb(255, 255, 255));
+}
+.green:hover{
+    filter: drop-shadow(0px 0px 20px rgb(110, 248, 30));
+}
+.purple:hover{
+    filter: drop-shadow(0px 0px 20px rgb(187, 18, 253));
+}
+.blue:hover{
+    filter: drop-shadow(0px 0px 20px rgb(57, 199, 255));
 }
